@@ -12,5 +12,4 @@ Configure >> Memory... and select these two options:
 
 If you have a real MC10, you'll need a real MC10 16K RAM expander.
 
-
-To use one of these programs with a real MC-10, you'd have to Quicktype it into the emulator, then CSAVE it to make a .c10 file.  Then, use the C10TOWAV utility (in the Tools directory) to make a WAV file.  Finally, this WAV file can be played back to an audio-connected MC-10, or it could be played back and recorded by an audio-connected cassette recorder.
+To use one of these programs you will need to compile them using Greg's Basic compiler and then assembled using TASM6801.  That will produce a .c10 virtual cassette file that can be loaded into into the emulator using the standard CLOADM command and then EXEC.  To use on a real MC-10 you would need to convert the .c10 file to a WAV sound file.  Use the C10TOWAV utility (in the Tools directory of VMC10) to make a WAV file.  Such WAV files can be played back to an MC-10 connected to your PC, or it could be played back and recorded by an cassette recorder connected to your PC.
