@@ -14,8 +14,3 @@ If you have a real MC10, you'll need a real MC10 16K RAM expander.
 
 
 To use one of these programs with a real MC-10, you'd have to Quicktype it into the emulator, then CSAVE it to make a .c10 file.  Then, use the C10TOWAV utility (in the Tools directory) to make a WAV file.  Finally, this WAV file can be played back to an audio-connected MC-10, or it could be played back and recorded by an audio-connected cassette recorder.
-
-For more information see:
-
-# trs80mc10
-Games and other software for the TRS-80 MC-10
